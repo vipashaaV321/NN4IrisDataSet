@@ -1,0 +1,19 @@
+{
+  "name": "nn4irisdataset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel --target=node index.js & nodemon dist/index.js"
+  },
+  "author": "vipasha",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^2.7.0",
+    "@tensorflow/tfjs-node": "^2.7.0",
+    "nodemon": "^2.0.6",
+    "parcel": "^1.12.4"
+  }
+}
